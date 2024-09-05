@@ -1,3 +1,12 @@
+# Notice 
+This fork will be used for a educational module at the National University of Singapore (NUS). 
+The goal of this fork is to:
+1. Attempt to rebuild the original setup, preferably in a docker image that can easily be executed on a separate machine
+2. Upgrade / re-implement the library while using the latest versions of dependencies.
+   - This is to utilize the newer functions of the upgraded libraries such as crocoddyl and pinocchio
+3. Implement the control algorithm on a physical drone and perform experiments
+   - The original paper only simulated the UAV. As such, the results may not be completely accurate. 
+
 :warning: **Disclaimer** :warning:
 
 This is a work-in-progress library. As such, it only contains basic features. For any doubt, bug, problem or suggestion feel free to open an issue.
